@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="methods">
+	<test name="Test">
+		<groups>
+			<define name="all">
+				<include name="regression" />
+				<!-- <include name="checkintest" /> -->
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<classes>
+			<!-- <class name="day2.TestNGDataProvider"/> -->
+			<!-- <class name="day2.TestNGAssertion" />-->
+			<class name="day2.SequenceAndPrioritize" />
+
+			<!-- <class name="day2.TestNGSequence" />
+			<class name="day_1.TestCases" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
