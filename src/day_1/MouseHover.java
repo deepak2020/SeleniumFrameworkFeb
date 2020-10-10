@@ -9,6 +9,7 @@ public class MouseHover extends CommonMethods {
 //		mouseHoverOnElement(getProperty("tutorialXpath"));
 //		mouseHoverOnElement(getProperty("apiXpath"));
 		dragAndDrop(getProperty("sourceElement"), getProperty("targetElement"));
+		//Commited to MouseHover
 
 	}
 
