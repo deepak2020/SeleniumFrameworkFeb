@@ -38,6 +38,7 @@ public class TestCases extends CommonMethods {
 		//Switching to the parent windows by providing windowhandlesID
 		driver.switchTo().window(parentWindow);
 		System.out.println("parentWindows   "+driver.getCurrentUrl());
+		//Git Added
 	}
 	
 	
