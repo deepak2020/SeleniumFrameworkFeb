@@ -15,8 +15,8 @@ public class Selenium_day1 {
 		//Get Command
 		driver.get("https://www.facebook.com");
 		//Get Title
-		String title = driver.getTitle();
-		if (title.toLowerCase().contains("facebook")) {
+		String title1 = driver.getTitle();
+		if (title1.toLowerCase().contains("facebook")) {
 			System.out.println("Title is correct");
 		} else 
 			System.out.println("Title is incorrect");
